@@ -30,5 +30,16 @@ public class LamdasExp {
 			for (String name : Arrays.asList("Duke ",  "mickey", "minnie" ) ) {
 				hello.accept(name);
 			}
+			
+			//Example of passing one value
+			GreetingFunction greeting = message -> System.out.println("Java Programming " + message);
+			greeting.sayMessage("Rocks with Lambda Expression");
 		}
+		
+		//custom functional Interface
+		@FunctionalInterface 
+		interface GreetingFunction {
+			void sayMessage(String message);
+		}
+		
 }
