@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.function.BiFunction;
 import java.util.function.Consumer;
 
-public class LamdasExp {
+public class Lambdas1_1 {
 
 		public static void  main(String [] args ) {
 			//Anonymous inner class : runnable  

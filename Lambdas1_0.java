@@ -4,7 +4,7 @@ import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.function.BinaryOperator;
 import java.util.function.UnaryOperator;
-class lambdas {
+class Lambdas1_0 {
 	public static void main(String args[]) {
 		//using the test method of Predicate 
 		Predicate<String> stringLen = (s)-> s.length() < 10;
